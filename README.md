@@ -2,7 +2,7 @@
 
 ## 1) Anàlisi del projecte
 ### Perfil d’usuari (persona)
-- **Nom:** Alex Martín (Recruiter IT)
+- **Nom:** Pau Dellundé
 - **Objectiu:** Veure skills, experiència i projectes en menys de 3 minuts.
 - **Frustracions:** Pàgines lentes, informació desordenada, falta d’enllaços a projectes.
 - **Context:** Des de PC a l’oficina i mòbil al transport.
