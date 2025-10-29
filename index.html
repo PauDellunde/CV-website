@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El teu nom — CV</title>
+  <meta name="description" content="Curriculum Vitae i portfoli de El teu nom: habilitats, experiència i projectes." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">El teu nom</a>
+      <nav class="site-nav">
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div>
+          <h1>Hola, sóc <span class="accent">El teu nom</span>.</h1>
+          <p class="lead">Desenvolupador front-end centrat en interfícies accessibles i ràpides.</p>
+          <div class="cta">
+            <a class="button primary" href="#projects">Veure projectes</a>
+            <a class="button" href="assets/ElTeuNom-CV.pdf" download>Descarregar CV (PDF)</a>
+          </div>
+        </div>
+        <img class="hero-photo" src="assets/profile.jpg" alt="Foto de El teu nom" />
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="card">
+            <h3>Frontend</h3>
+            <ul class="chips">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Backend</h3>
+            <ul class="chips">
+              <li>Node.js</li><li>Express</li><li>SQL</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Tools</h3>
+            <ul class="chips">
+              <li>Git</li><li>Figma</li><li>CI/CD</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section alt" id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <div class="time">2023 — Present</div>
+            <div class="content">
+              <h3>Frontend Developer · Company XYZ</h3>
+              <ul>
+                <li>Implementació de disseny system i reducció de bugs UI en un 35%.</li>
+                <li>Millora de performance (LCP −40%) amb code-splitting.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="card project">
+            <h3>Projecte 1</h3>
+            <p>Aplicació de tasques amb suport offline.</p>
+            <p class="meta">Stack: React, IndexedDB</p>
+            <div class="links">
+              <a href="#">Live</a>
+              <a href="#">Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <h2>Education & Certificates</h2>
+        <ul>
+          <li><strong>BSc Computer Science</strong>, Universitat XYZ — 2018–2022</li>
+          <li>Certificate: Google UX Design — 2024</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul class="contact">
+          <li><a href="mailto:tu@exemple.com">tu@exemple.com</a></li>
+          <li><a href="https://linkedin.com/in/el-teu-usuari">LinkedIn</a></li>
+          <li><a href="https://github.com/el-teu-usuari">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> El teu nom. Built with HTML & CSS.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
