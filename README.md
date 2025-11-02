@@ -25,7 +25,7 @@ Visual design is intended to be simple, readable, and coherent with my personal 
 
 ## 2) Figma link
 Add the public link to your Figma project here:  
-`https://www.figma.com/file/REPLACE_THIS_WITH_YOUR_ID`
+https://www.figma.com/design/WVARDfpfVcyFwCYH7uUAPx/CV-Webpage?node-id=2-3&t=nKXCTx0PpFBGjq6E-1
 
 ## 3) Implementation
 - **Stack:** HTML5 + CSS (vanilla). Also I've used minimal JS to try to change the footer date.
